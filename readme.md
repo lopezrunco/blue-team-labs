@@ -5,4 +5,5 @@ It was developed using Hack The Box's **Intro to Blue Team** track, which simula
 
 ## Labs:
 
+- [Unit42](./unit42/unit42.md)
 - [Brutus](./brutus/brutus.md)
