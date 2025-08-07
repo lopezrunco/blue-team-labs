@@ -1,5 +1,7 @@
 # Brutus
 
+## Investigation process:
+
 The first step is to analyze the provided assets.
 
 By examining the `auth.log` file, I identified indicators of a brute-force attack. There were many failed login attempts within a short period, which led me to determine that the attacker's IP address is `65.2.161.68`:
