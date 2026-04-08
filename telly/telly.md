@@ -1,15 +1,17 @@
 # Telly
 
+**Platform:** Hack The Box
+
 ## Scenario:
 
 You are a Junior DFIR Analyst at an MSSP that provides continuous monitoring and DFIR services to SMBs. Your supervisor has tasked you with analyzing network telemetry from a compromised backup server. A DLP solution flagged a possible data exfiltration attempt from this server. According to the IT team, this server wasn't very busy and was sometimes used to store backups.
 
 ## Tools used:
 
-- Wireshark
-- DB Browser for SQLite
+![Wireshark](https://img.shields.io/badge/Wireshark-0080FF?style=for-the-badge&logo=wireshark&logoColor=white)
+![DB Browser for SQLite](https://img.shields.io/badge/DB%20Browser%20for%20SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
-## Skills Learned:
+## Skills learned:
 
 - Network traffic analysis
 - Detection of Telnet exploitation
@@ -68,6 +70,22 @@ Using that email, I executed the following query: `SELECT * FROM purchases WHERE
 This returned the credit card number for Quinn Harris: `5312269047781209`.
 
 ![Database query result displaying credit card number](./assets/09%20-%20credit%20card%20number%20found.png)
+
+## Indicators of Compromise:
+
+- C2 IP: `91.99.25.54`
+- Backdoor user: `cleanupsvc`
+- Malicious url: `https://raw.githubusercontent.com/montysecurity/linper/refs/heads/main/linper.sh`
+- Exfiltrated file: `credit-cards-25-blackfriday.db`
+- CVE exploited: `CVE-2026-24061`
+
+## Recommendations:
+
+- Disable `Telnet` and use `SSH` instead.
+- Patch systems against the `CVE-2026-24061`.
+- Remove unauthorized accounts (`cleanupsvc`).
+- Block C2 IP `91.99.25.54` at firewall level.
+- Monitor outbound traffic for suspicious `GET` requests.
 
 ## Conclusion:
 
