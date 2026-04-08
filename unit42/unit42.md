@@ -10,7 +10,7 @@ Palo Alto's Unit42 recently conducted research on an UltraVNC campaign, wherein 
 - Sysmon
 - VirusTotal
 
-## Skills learnt:
+## Skills Learned:
 
 - Event Log Analysis
 - Sysmon Log analysis
