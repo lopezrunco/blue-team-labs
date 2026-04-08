@@ -1,14 +1,16 @@
 # Unit42
 
+**Platform:** Hack The Box
+
 ## Scenario:
 
 Palo Alto's Unit42 recently conducted research on an UltraVNC campaign, wherein attackers utilized a backdoored version of UltraVNC to maintain access to systems. This lab is inspired by that campaign and guides participants through the initial access stage of the campaign.
 
 ## Tools used:
 
-- Event Viewer
-- Sysmon
-- VirusTotal
+![Event Viewer](https://img.shields.io/badge/Event%20Viewer-0078D7?style=for-the-badge&logo=windows&logoColor=white)
+![Sysmon](https://img.shields.io/badge/Sysmon-262626?style=for-the-badge&logo=windows&logoColor=white)
+![VirusTotal](https://img.shields.io/badge/VirusTotal-FF0000?style=for-the-badge&logo=virustotal&logoColor=white)
 
 ## Skills Learned:
 

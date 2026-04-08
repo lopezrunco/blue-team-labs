@@ -1,5 +1,7 @@
 # Brutus
 
+**Platform:** Hack The Box
+
 ## Investigation process:
 
 The first step is to analyze the provided assets.
