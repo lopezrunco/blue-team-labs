@@ -25,9 +25,14 @@ This repository documents my hands-on learning journey through defensive securit
 ![Event Viewer](https://img.shields.io/badge/Event%20Viewer-0078D7?style=for-the-badge&logo=windows&logoColor=white)
 ![Sysmon](https://img.shields.io/badge/Sysmon-262626?style=for-the-badge&logo=windows&logoColor=white)
 ![VirusTotal](https://img.shields.io/badge/VirusTotal-FF0000?style=for-the-badge&logo=virustotal&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali%20Linux-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)
+![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)
+![Zui](https://img.shields.io/badge/Zui-000000?style=for-the-badge&logo=apache&logoColor=white)
 
 ## Labs:
 
+- [Malware compromise](./malware-compromise/malware-compromise.md)
+- [Web shell](./web-shell/web-shell.md)
 - [Telly](./telly/telly.md)
 - [Unit42](./unit42/unit42.md)
 - [Brutus](./brutus/brutus.md)
