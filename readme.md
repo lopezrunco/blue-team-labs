@@ -31,12 +31,17 @@ This repository documents my hands-on learning journey through defensive securit
 
 ## Labs:
 
-- [Meerkat](./meerkat/meerkat.md)
-- [Malware compromise](./malware-compromise/malware-compromise.md)
-- [Web shell](./web-shell/web-shell.md)
-- [Telly](./telly/telly.md)
-- [Unit42](./unit42/unit42.md)
-- [Brutus](./brutus/brutus.md)
+- [Meerkat](./meerkat/meerkat.md): PCAP and log analysis of a credential stuffing attack, CVE-2022-25237 exploitation, and SSH persistence using Wireshark, tshark, and jq.
+
+- [Malware compromise](./malware-compromise/malware-compromise.md): Investigated a malware infection through PCAP analysis, identifying malicious domains, payload downloads, TLS C2 communication, and Ursnif/Dridex-related activity using Wireshark, Zui, and VirusTotal.
+
+- [Web shell](./web-shell/web-shell.md): Investigated a web application compromise involving SYN scanning, Gobuster enumeration, SQL injection with sqlmap, malicious PHP web shell upload, and reverse shell execution through PCAP analysis.
+
+- [Telly](./telly/telly.md): Analyzed a compromised backup server involving Telnet exploitation, backdoor account creation, C2 persistence, and database exfiltration through PCAP and SQLite forensic analysis.
+
+- [Unit42](./unit42/unit42.md): Investigated a malicious UltraVNC campaign using Sysmon and Event Viewer, identifying the malware, tracing DNS/network activity, and reconstructing the attack timeline.
+
+- [Brutus](./brutus/brutus.md): Investigated a successful SSH brute-force attack through Linux authentication logs, identifying the attacker IP, compromised root account, persistence via local account creation, and post-compromise activity.
 
 ## How to Use This Repo
 
