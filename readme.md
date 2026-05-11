@@ -31,6 +31,7 @@ This repository documents my hands-on learning journey through defensive securit
 
 ## Labs:
 
+- [Meerkat](./meerkat/meerkat.md)
 - [Malware compromise](./malware-compromise/malware-compromise.md)
 - [Web shell](./web-shell/web-shell.md)
 - [Telly](./telly/telly.md)
